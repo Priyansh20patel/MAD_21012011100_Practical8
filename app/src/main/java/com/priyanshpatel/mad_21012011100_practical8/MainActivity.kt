@@ -11,8 +11,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
         val addAlarm:MaterialCardView=findViewById(R.id.card)
         val card:MaterialCardView=findViewById(R.id.card2)
+
         card.visibility = View.GONE
         addAlarm.setOnClickListener{
             card.visibility=View.VISIBLE
@@ -26,5 +29,4 @@ fun setAlarmTime(hour:Int,minutes:Int){
 }
 
 
-
-}
+  }
