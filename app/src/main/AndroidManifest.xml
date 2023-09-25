@@ -22,7 +22,7 @@
             android:enabled="true"
             android:exported="true" />
         <receiver
-            android:name=".MyReceiver"
+            android:name=".AlarmService"
             android:enabled="true"
             android:exported="true" />
 

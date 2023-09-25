@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
 
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,6 +16,7 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
@@ -88,16 +89,14 @@
 
             </LinearLayout>
         </LinearLayout>
-
-
     </com.google.android.material.card.MaterialCardView>
+
 
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_margin="20dp"
         app:cardElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -126,6 +125,7 @@
                 android:layout_margin="20dp"
                 android:padding="10dp"
                 android:textAlignment="center"/>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/create2"
                 android:layout_width="wrap_content"
