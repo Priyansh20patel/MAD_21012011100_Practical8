@@ -22,14 +22,21 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
             if (data != null)
             {
                 val intentservice = Intent(context,AlarmService::class.java)
+
                 if (data == ALARMSTART)
                 {
                     context.startService(intentservice)
                 }
 
-                else context.stopService(intentservice)
+                else
+                {
+                    context.stopService(intentservice)
+
+                }
+            }
+
             }
         }
     }
 
-}
+
